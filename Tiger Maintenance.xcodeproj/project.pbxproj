@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE0C57842C05F1BC009FED2B /* DayItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0C57832C05F1BC009FED2B /* DayItem.swift */; };
+		EE0C57882C062A6C009FED2B /* MaintenanceGameSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0C57872C062A6C009FED2B /* MaintenanceGameSceneView.swift */; };
+		EE0C578A2C062A7A009FED2B /* MaintenanceGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0C57892C062A7A009FED2B /* MaintenanceGameScene.swift */; };
+		EE0C578E2C07446A009FED2B /* MaintenanceGameWinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0C578D2C07446A009FED2B /* MaintenanceGameWinView.swift */; };
+		EE0C57902C074478009FED2B /* MaintenanceGameLoseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0C578F2C074478009FED2B /* MaintenanceGameLoseView.swift */; };
+		EE0C57922C074485009FED2B /* MaintenanceGamePauseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0C57912C074485009FED2B /* MaintenanceGamePauseView.swift */; };
+		EE0C57952C0752FF009FED2B /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = EE0C57942C0752FF009FED2B /* GoogleMobileAds */; };
+		EE0C57982C075337009FED2B /* ApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0C57972C075337009FED2B /* ApplicationDelegate.swift */; };
+		EE41CF922C05127E000643BE /* Tiger_MaintenanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41CF912C05127E000643BE /* Tiger_MaintenanceApp.swift */; };
+		EE41CF942C05127E000643BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41CF932C05127E000643BE /* ContentView.swift */; };
+		EE41CF962C051281000643BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE41CF952C051281000643BE /* Assets.xcassets */; };
+		EE41CF992C051281000643BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE41CF982C051281000643BE /* Preview Assets.xcassets */; };
+		EE41CFA22C05139D000643BE /* MaitenanceMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41CFA12C05139D000643BE /* MaitenanceMenuView.swift */; };
+		EE41CFA52C05160E000643BE /* MaitenanceInfoGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41CFA42C05160E000643BE /* MaitenanceInfoGameView.swift */; };
+		EE41CFA72C0517E8000643BE /* Jost-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE41CFA62C0517E8000643BE /* Jost-VariableFont_wght.ttf */; };
+		EE41CFAB2C051C99000643BE /* MaintenanceShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41CFAA2C051C99000643BE /* MaintenanceShopView.swift */; };
+		EE640DF12C075F0700E4B37D /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE640DF02C075F0700E4B37D /* PrivacyPolicyView.swift */; };
+		EE640DF42C088AFD00E4B37D /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = EE640DF32C088AFD00E4B37D /* AppsFlyerLib */; };
+		EE640DF72C088B1500E4B37D /* OneSignal in Frameworks */ = {isa = PBXBuildFile; productRef = EE640DF62C088B1500E4B37D /* OneSignal */; };
+		EE640DFC2C088B1F00E4B37D /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = EE640DFB2C088B1F00E4B37D /* SwiftyJSON */; };
+		EE640DFF2C088D3E00E4B37D /* LoadingTigerMaintenanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE640DFE2C088D3E00E4B37D /* LoadingTigerMaintenanceView.swift */; };
+		EE640E012C088E4600E4B37D /* LoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE640E002C088E4600E4B37D /* LoadingViewModel.swift */; };
+		EE640E032C0892E600E4B37D /* MaitenanceMenuViewS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE640E022C0892E600E4B37D /* MaitenanceMenuViewS.swift */; };
+		EE9A57C72C05DEC700AD3487 /* MaintenanceShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9A57C62C05DEC700AD3487 /* MaintenanceShopItem.swift */; };
+		EE9A57C92C05E4EA00AD3487 /* TigerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9A57C82C05E4EA00AD3487 /* TigerData.swift */; };
+		EE9A57CC2C05EC1300AD3487 /* DaysGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9A57CB2C05EC1300AD3487 /* DaysGameView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE0C57832C05F1BC009FED2B /* DayItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayItem.swift; sourceTree = "<group>"; };
+		EE0C57872C062A6C009FED2B /* MaintenanceGameSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceGameSceneView.swift; sourceTree = "<group>"; };
+		EE0C57892C062A7A009FED2B /* MaintenanceGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceGameScene.swift; sourceTree = "<group>"; };
+		EE0C578D2C07446A009FED2B /* MaintenanceGameWinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceGameWinView.swift; sourceTree = "<group>"; };
+		EE0C578F2C074478009FED2B /* MaintenanceGameLoseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceGameLoseView.swift; sourceTree = "<group>"; };
+		EE0C57912C074485009FED2B /* MaintenanceGamePauseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceGamePauseView.swift; sourceTree = "<group>"; };
+		EE0C57972C075337009FED2B /* ApplicationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDelegate.swift; sourceTree = "<group>"; };
+		EE41CF8E2C05127E000643BE /* Tiger Maintenance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tiger Maintenance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE41CF912C05127E000643BE /* Tiger_MaintenanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiger_MaintenanceApp.swift; sourceTree = "<group>"; };
+		EE41CF932C05127E000643BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE41CF952C051281000643BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE41CF982C051281000643BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE41CFA12C05139D000643BE /* MaitenanceMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaitenanceMenuView.swift; sourceTree = "<group>"; };
+		EE41CFA42C05160E000643BE /* MaitenanceInfoGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaitenanceInfoGameView.swift; sourceTree = "<group>"; };
+		EE41CFA62C0517E8000643BE /* Jost-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		EE41CFA82C0517F9000643BE /* Tiger-Maintenance-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Tiger-Maintenance-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EE41CFAA2C051C99000643BE /* MaintenanceShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceShopView.swift; sourceTree = "<group>"; };
+		EE640DF02C075F0700E4B37D /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		EE640DFE2C088D3E00E4B37D /* LoadingTigerMaintenanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingTigerMaintenanceView.swift; sourceTree = "<group>"; };
+		EE640E002C088E4600E4B37D /* LoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewModel.swift; sourceTree = "<group>"; };
+		EE640E022C0892E600E4B37D /* MaitenanceMenuViewS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaitenanceMenuViewS.swift; sourceTree = "<group>"; };
+		EE9A57C62C05DEC700AD3487 /* MaintenanceShopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceShopItem.swift; sourceTree = "<group>"; };
+		EE9A57C82C05E4EA00AD3487 /* TigerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TigerData.swift; sourceTree = "<group>"; };
+		EE9A57CB2C05EC1300AD3487 /* DaysGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysGameView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE41CF8B2C05127E000643BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0C57952C0752FF009FED2B /* GoogleMobileAds in Frameworks */,
+				EE640DF42C088AFD00E4B37D /* AppsFlyerLib in Frameworks */,
+				EE640DF72C088B1500E4B37D /* OneSignal in Frameworks */,
+				EE640DFC2C088B1F00E4B37D /* SwiftyJSON in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE0C57852C062A3D009FED2B /* MaintenanceGame */ = {
+			isa = PBXGroup;
+			children = (
+				EE0C57862C062A48009FED2B /* Scene */,
+				EE0C57872C062A6C009FED2B /* MaintenanceGameSceneView.swift */,
+			);
+			path = MaintenanceGame;
+			sourceTree = "<group>";
+		};
+		EE0C57862C062A48009FED2B /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				EE0C57892C062A7A009FED2B /* MaintenanceGameScene.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		EE0C578C2C074458009FED2B /* MaintenanceGameResults */ = {
+			isa = PBXGroup;
+			children = (
+				EE0C578D2C07446A009FED2B /* MaintenanceGameWinView.swift */,
+				EE0C578F2C074478009FED2B /* MaintenanceGameLoseView.swift */,
+				EE0C57912C074485009FED2B /* MaintenanceGamePauseView.swift */,
+			);
+			path = MaintenanceGameResults;
+			sourceTree = "<group>";
+		};
+		EE0C57962C07532D009FED2B /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				EE0C57972C075337009FED2B /* ApplicationDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		EE41CF852C05127E000643BE = {
+			isa = PBXGroup;
+			children = (
+				EE41CF902C05127E000643BE /* Tiger Maintenance */,
+				EE41CF8F2C05127E000643BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE41CF8F2C05127E000643BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE41CF8E2C05127E000643BE /* Tiger Maintenance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE41CF902C05127E000643BE /* Tiger Maintenance */ = {
+			isa = PBXGroup;
+			children = (
+				EE0C57962C07532D009FED2B /* Delegates */,
+				EE9A57C52C05DEBC00AD3487 /* Models */,
+				EE41CFA82C0517F9000643BE /* Tiger-Maintenance-Info.plist */,
+				EE41CF9F2C05137B000643BE /* MaitenanceApp */,
+				EE41CF912C05127E000643BE /* Tiger_MaintenanceApp.swift */,
+				EE41CF952C051281000643BE /* Assets.xcassets */,
+				EE41CFA62C0517E8000643BE /* Jost-VariableFont_wght.ttf */,
+				EE41CF972C051281000643BE /* Preview Content */,
+			);
+			path = "Tiger Maintenance";
+			sourceTree = "<group>";
+		};
+		EE41CF972C051281000643BE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE41CF982C051281000643BE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE41CF9F2C05137B000643BE /* MaitenanceApp */ = {
+			isa = PBXGroup;
+			children = (
+				EE640DFD2C088D2900E4B37D /* LoadingTigerMaintenance */,
+				EE640DEF2C075EF400E4B37D /* PrivacyPolicyView */,
+				EE0C578C2C074458009FED2B /* MaintenanceGameResults */,
+				EE0C57852C062A3D009FED2B /* MaintenanceGame */,
+				EE9A57CA2C05EBE400AD3487 /* DaysView */,
+				EE41CFA92C051C7B000643BE /* ShopView */,
+				EE41CFA32C0515F2000643BE /* Info */,
+				EE41CF932C05127E000643BE /* ContentView.swift */,
+				EE41CFA02C05138A000643BE /* Menu */,
+			);
+			path = MaitenanceApp;
+			sourceTree = "<group>";
+		};
+		EE41CFA02C05138A000643BE /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				EE41CFA12C05139D000643BE /* MaitenanceMenuView.swift */,
+				EE640E022C0892E600E4B37D /* MaitenanceMenuViewS.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		EE41CFA32C0515F2000643BE /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				EE41CFA42C05160E000643BE /* MaitenanceInfoGameView.swift */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		EE41CFA92C051C7B000643BE /* ShopView */ = {
+			isa = PBXGroup;
+			children = (
+				EE41CFAA2C051C99000643BE /* MaintenanceShopView.swift */,
+			);
+			path = ShopView;
+			sourceTree = "<group>";
+		};
+		EE640DEF2C075EF400E4B37D /* PrivacyPolicyView */ = {
+			isa = PBXGroup;
+			children = (
+				EE640DF02C075F0700E4B37D /* PrivacyPolicyView.swift */,
+			);
+			path = PrivacyPolicyView;
+			sourceTree = "<group>";
+		};
+		EE640DFD2C088D2900E4B37D /* LoadingTigerMaintenance */ = {
+			isa = PBXGroup;
+			children = (
+				EE640DFE2C088D3E00E4B37D /* LoadingTigerMaintenanceView.swift */,
+				EE640E002C088E4600E4B37D /* LoadingViewModel.swift */,
+			);
+			path = LoadingTigerMaintenance;
+			sourceTree = "<group>";
+		};
+		EE9A57C52C05DEBC00AD3487 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EE9A57C62C05DEC700AD3487 /* MaintenanceShopItem.swift */,
+				EE9A57C82C05E4EA00AD3487 /* TigerData.swift */,
+				EE0C57832C05F1BC009FED2B /* DayItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EE9A57CA2C05EBE400AD3487 /* DaysView */ = {
+			isa = PBXGroup;
+			children = (
+				EE9A57CB2C05EC1300AD3487 /* DaysGameView.swift */,
+			);
+			path = DaysView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE41CF8D2C05127E000643BE /* Tiger Maintenance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE41CF9C2C051281000643BE /* Build configuration list for PBXNativeTarget "Tiger Maintenance" */;
+			buildPhases = (
+				EE41CF8A2C05127E000643BE /* Sources */,
+				EE41CF8B2C05127E000643BE /* Frameworks */,
+				EE41CF8C2C05127E000643BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tiger Maintenance";
+			packageProductDependencies = (
+				EE0C57942C0752FF009FED2B /* GoogleMobileAds */,
+				EE640DF32C088AFD00E4B37D /* AppsFlyerLib */,
+				EE640DF62C088B1500E4B37D /* OneSignal */,
+				EE640DFB2C088B1F00E4B37D /* SwiftyJSON */,
+			);
+			productName = "Tiger Maintenance";
+			productReference = EE41CF8E2C05127E000643BE /* Tiger Maintenance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE41CF862C05127E000643BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					EE41CF8D2C05127E000643BE = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = EE41CF892C05127E000643BE /* Build configuration list for PBXProject "Tiger Maintenance" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE41CF852C05127E000643BE;
+			packageReferences = (
+				EE0C57932C0752FF009FED2B /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+				EE640DF22C088AFD00E4B37D /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
+				EE640DF52C088B1500E4B37D /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+				EE640DFA2C088B1F00E4B37D /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
+			productRefGroup = EE41CF8F2C05127E000643BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE41CF8D2C05127E000643BE /* Tiger Maintenance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE41CF8C2C05127E000643BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE41CF992C051281000643BE /* Preview Assets.xcassets in Resources */,
+				EE41CF962C051281000643BE /* Assets.xcassets in Resources */,
+				EE41CFA72C0517E8000643BE /* Jost-VariableFont_wght.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE41CF8A2C05127E000643BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE41CFA22C05139D000643BE /* MaitenanceMenuView.swift in Sources */,
+				EE640E032C0892E600E4B37D /* MaitenanceMenuViewS.swift in Sources */,
+				EE0C578E2C07446A009FED2B /* MaintenanceGameWinView.swift in Sources */,
+				EE9A57C72C05DEC700AD3487 /* MaintenanceShopItem.swift in Sources */,
+				EE9A57C92C05E4EA00AD3487 /* TigerData.swift in Sources */,
+				EE9A57CC2C05EC1300AD3487 /* DaysGameView.swift in Sources */,
+				EE0C57902C074478009FED2B /* MaintenanceGameLoseView.swift in Sources */,
+				EE41CFA52C05160E000643BE /* MaitenanceInfoGameView.swift in Sources */,
+				EE0C57882C062A6C009FED2B /* MaintenanceGameSceneView.swift in Sources */,
+				EE41CFAB2C051C99000643BE /* MaintenanceShopView.swift in Sources */,
+				EE0C57922C074485009FED2B /* MaintenanceGamePauseView.swift in Sources */,
+				EE0C578A2C062A7A009FED2B /* MaintenanceGameScene.swift in Sources */,
+				EE640DF12C075F0700E4B37D /* PrivacyPolicyView.swift in Sources */,
+				EE41CF942C05127E000643BE /* ContentView.swift in Sources */,
+				EE640DFF2C088D3E00E4B37D /* LoadingTigerMaintenanceView.swift in Sources */,
+				EE0C57982C075337009FED2B /* ApplicationDelegate.swift in Sources */,
+				EE0C57842C05F1BC009FED2B /* DayItem.swift in Sources */,
+				EE41CF922C05127E000643BE /* Tiger_MaintenanceApp.swift in Sources */,
+				EE640E012C088E4600E4B37D /* LoadingViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE41CF9A2C051281000643BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE41CF9B2C051281000643BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE41CF9D2C051281000643BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tiger Maintenance/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tiger-Maintenance-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamebig.Tiger-Maintenance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EE41CF9E2C051281000643BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tiger Maintenance/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tiger-Maintenance-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamebig.Tiger-Maintenance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE41CF892C05127E000643BE /* Build configuration list for PBXProject "Tiger Maintenance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE41CF9A2C051281000643BE /* Debug */,
+				EE41CF9B2C051281000643BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE41CF9C2C051281000643BE /* Build configuration list for PBXNativeTarget "Tiger Maintenance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE41CF9D2C051281000643BE /* Debug */,
+				EE41CF9E2C051281000643BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EE0C57932C0752FF009FED2B /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.5.0;
+			};
+		};
+		EE640DF22C088AFD00E4B37D /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.14.3;
+			};
+		};
+		EE640DF52C088B1500E4B37D /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		EE640DFA2C088B1F00E4B37D /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EE0C57942C0752FF009FED2B /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE0C57932C0752FF009FED2B /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+		EE640DF32C088AFD00E4B37D /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE640DF22C088AFD00E4B37D /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
+		};
+		EE640DF62C088B1500E4B37D /* OneSignal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE640DF52C088B1500E4B37D /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignal;
+		};
+		EE640DFB2C088B1F00E4B37D /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE640DFA2C088B1F00E4B37D /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EE41CF862C05127E000643BE /* Project object */;
+}
